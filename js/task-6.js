@@ -11,9 +11,11 @@ function destroyBoxes() {
 
 function createBoxes(amount) {
   if (document.querySelector(".box")) destroyBoxes();
+  const strHTML = [];
   for (let i = 30; i < amount * 10 + 30; i += 10) {
-    divBoxes.insertAdjacentHTML("beforeend", `<div class="box" style="width: ${i}px; height: ${i}px; background-color: ${getRandomHexColor()};"></div>`);
+    strHTML.push(`<div class="box" style="width: ${i}px; height: ${i}px; background-color: ${getRandomHexColor()};"></div>`);
   }
+  divBoxes.insertAdjacentHTML("beforeend", strHTML.join(""));
 }
 
 const inputNumber = document.querySelector("#controls>input");

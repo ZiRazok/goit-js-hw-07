@@ -40,6 +40,8 @@ body {
   line-height: 1.5;
 }
 
+
+/* task 1 */
 #categories {
   margin: 0;
   padding: 24px;
@@ -82,8 +84,10 @@ body {
   border-color: #000;
 }
 
+
+/* task 2 */
 .gallery {
-  width: 100%;
+  width: 66%;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -100,6 +104,8 @@ body {
   max-height: 300px;
 }
 
+
+/* task 3 */
 #name-input {
   font-family: "Montserrat", sans-serif;
   font-size: 16px;
@@ -133,6 +139,9 @@ h1 {
   letter-spacing: 0.04em;
 }
 
+
+
+/* task 4 */
 .login-form {
   position: absolute;
   top: 50%;
@@ -195,6 +204,8 @@ h1 {
 }
 
 
+
+/* task 5 */
 .widget {
   position: absolute;
   top: 50%;
@@ -230,6 +241,9 @@ h1 {
   background-color: #6c8cff;
 }
 
+
+
+/* task 6 */
 #controls {
   border-radius: 8px;
   padding: 32px;
